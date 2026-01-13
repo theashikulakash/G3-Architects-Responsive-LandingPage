@@ -1,0 +1,108 @@
+@imort Url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.root-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.bg {
+    
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.display-flex {
+    display: flex;
+}
+
+.text-02 {
+    color: #424242;
+}
+
+.text-03 {
+    color: #727272;
+}
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary {
+    background-color: #ff900e;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+ main > section {
+    margin-top: 130px;
+ }
+
+/* nav styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h3 {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.nav-links {
+    list-style: none;
+    
+}
+.nav-items {
+    margin-right: 30px;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: ;
+}
+/* banner styles */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner .banner-image {
+    width: 100%;
+}
+
+/* teams and features style */
+.teams {
+    align-items: center;
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-features {
+    margin-left: 70px;
+    max-width: 530px;
+}
+
+/* responsive media quary  */
+@media screen and (max-width: 576px) {
+    
+}
+.navbar .nav-links {
+    flex-direction: column;
+}
