@@ -20,6 +20,10 @@ main {
     display: flex;
 }
 
+.text-01 {
+    color: #131313;
+}
+
 .text-02 {
     color: #424242;
 }
@@ -27,6 +31,11 @@ main {
 .text-03 {
     color: #727272;
 }
+
+.text-main {
+    color: #ff900e;
+}
+ 
 .bg-light {
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -98,11 +107,37 @@ main {
     margin-left: 70px;
     max-width: 530px;
 }
+.team-features span {
+    font-size: 45px;
+    font-weight: bold;
+}
+.team-features span:nth-child(1) {
+    font-weight: 500;
+}
+
 
 /* responsive media quary  */
 @media screen and (max-width: 576px) {
-    
-}
-.navbar .nav-links {
+    body {
+        max-width: 100vw;
+    }
+.navbar, 
+ 
+.teams {
     flex-direction: column;
+}
+.nav-items{
+    margin-right: 10px;
+}
+.nav-links li {
+    margin-top: 10px;
+}
+.teams .team-img-container {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+}
+.team-features{
+    margin-left: 20px;
+}
+
 }
